@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Hotel</title>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav aria-label="Main Navigation">
+            <strong>NEXUS HOTEL</strong>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">Our Team</a></li>
+                <li><a href="#contact">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <!-- 1. Hero Section & Value Proposition -->
+        <section id="home" aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Where the Rift Valley meets the Flame </h1>
+            <p>
+                <strong>Value Proposition:</strong>We bridge the distance between heritage Kenyan farming and modern wood-fired mastery to serve the soul of Nairobi.Come and have an unforgettable experience with us.   
+            </p>
+           
+        </section>
+
+        <hr>
+
+        <!-- 2. Services Section -->
+        <section id="services" aria-labelledby="services-heading">
+            <h2 id="services-heading">Our Services</h2>
+            
+            <article>
+                <h3>Fine Dine-In</h3>
+                <p>An intimate wood-fired dining atmosphere featuring seasonal tasting menus.</p>
+                <figure>
+                 <img src="assets/images/faisal-BS4Zeq7xDRk-unsplash.jpg" 
+                     alt="Executive Chef Samuel preparing a signature dish with local spices" 
+                     width="300px" length="300px">
+                </figure>
+            </article>
+           
+
+            <article>
+                <h3>Bespoke Catering</h3>
+                <p>Professional culinary services for corporate events and private celebrations across Kenya.</p>
+                <figure>
+                 <img src="assets/images/lucas-law-KDVGz-qnHfc-unsplash.jpg" alt="whole meal" width="400px" length="300px">
+                 </figure>
+            </article>
+        </section>
+              &nbsp;
+        <hr>
+
+        <!-- 3. About/Team Section with Embedded Media -->
+         
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">The Hands Behind the Meal</h2>
+                &nbsp;
+            <figure>
+                <!-- Image with Alt Text for Accessibility -->
+                 <img src="assets/images/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="head chef" width="400px" length="200px">
+               
+                <figcaption>Our HeadChef  Mr Wong with 20 years of fusion expertise .</figcaption>
+            </figure>
+                &nbsp;
+            <figure>
+                
+                 <img src="assets/images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg" alt="Executive chef" width="300px" length="200px">
+               
+                <figcaption>Our Executive chef Samuel who has proper management and leadership skills to ensures good quality customer service.</figcaption>
+            </figure>
+                &nbsp;
+            <figure>
+                
+                 <img src="assets/images/gilbert-pagunaling-hSw71lns6HI-unsplash.jpg" alt="Master sommelier" width="300px" length="200px">
+               
+                <figcaption>Our Master sommelier Mike David with 20 years of skills and experience in the art of wine services.</figcaption>
+            </figure>
+
+            <p>Our team consists of local culinary artists dedicated to sustainable sourcing.</p>
+                &nbsp;
+
+            <!-- Video Placeholder Concept -->
+            <figure>
+                <video controls width="500" poster="Cooking add">
+                    <source src="assets/videos/Food_Reel_-_Darío_Idoate(720p).mp4" type="video/mp4">
+                </video>
+                <figcaption>Behind the Scenes: Our Kitchen Culture</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- 4. Contact Form with Validation -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Make a Reservation</h2>
+            
+            <form action="#" method="POST">
+                
+                    <legend>Booking Details</legend>
+                    
+                    <!-- Required name input section for validation -->
+                    <p>
+                        <label for="full-name">Full Name *</label><br>
+                        <input type="text" id="full-name" name="name" required  placeholder="Enter your name">
+                    </p>
+
+                    <!-- Type Email for automatic Format Validation -->
+                    <p>
+                        <label for="email-address">Email Address *</label><br>
+                        <input type="email" id="email-address" name="email" required placeholder="name@example.com">
+                    </p>
+
+                    <!-- Pattern Attribute for Regex Validation (Kenyan Phone Format) -->
+                    <p>
+                        <label for="phone">Phone Number *</label><br>
+                        <input type="tel" id="phone" name="phone" required pattern="[0]{1}[0-9]{9}" placeholder="0712345678" title="Please enter a 10-digit number starting with 0">
+                    </p>
+                    <!-- Required date validation -->
+                    <p>
+                        <label for="start">Date *</label><br>
+                        <input type="date" id="start" name="Date & Time" required >
+                    </p>
+
+                    <p>
+                        <label for="comments">Special Requests</label><br>
+                        <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
+                    </p>
+
+                    <button type="submit">Confirm Inquiry</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <!-- 5. Footer with Social Links and Copyright -->
+    <footer role="contentinfo">
+        <hr>
+        <nav aria-label="Social Media Links">
+            <ul>
+                <!-- ARIA labels for non-text links (if icons were used) -->
+                <li><a href="https://instagram.com/nexushotel" aria-label="Follow us on Instagram">Instagram</a></li>
+                <li><a href="https://facebook.com/nexushotel" aria-label="Like us on Facebook">Facebook</a></li>
+            </ul>
+        </nav>
+        <p>&lt;&lt;&lt; &copy; 2026 The Nexus Hotel. All rights reserved. &gt;&gt;&gt;</p>
+        <p><small>Nairobi, Kenya</small></p>
+    </footer>
+    <p>
+        <a href="#">Back to the top</a>
+    </p>
+</body>
+</html>
