@@ -1,5 +1,6 @@
 # Nexus Hotel 
 
+## Project Brief
 A startic website for **Nexus Hotel**, a wood-fired dining experience rooted in Nairobi, Kenya. The site bridges heritage Kenyan farming with modern culinary artistry, offering visitors a window into the restaurant's story, services, team, and reservation system.
 
 ---
@@ -42,19 +43,25 @@ Nexus Hotel is a Nairobi-based fine dining restaurant specializing in wood-fired
 
 ```
 nexus-hotel/
-|-- index.html
-|-- assets/
-    |-- images/
-    |   |-- faisal-BS4Zeq7xDRk-unsplash.jpg       # Fine dine-in service image
-    │   |-- lucas-law-KDVGz-qnHfc-unsplash.jpg     # Catering service image
-    │   |-- rc-cf-FMh5o5m5N9E-unsplash.jpg         # Head Chef Mr Wong
-    │   |-- febrian-zakaria-SiQgni-cqFg-unsplash.jpg # Executive Chef Samuel
-    │   |-- gilbert-pagunaling-hSw71lns6HI-unsplash.jpg # Master Sommelier Mike David
-    |-- videos/
-        |-- Food_Reel_-_Darío_Idoate(720p).mp4     # Kitchen culture reel
+│   index.html
+│   LICENSE
+│   README.md
+│   
+└───assets
+    ├───images
+    │       faisal-BS4Zeq7xDRk-unsplash.jpg
+    │       febrian-zakaria-SiQgni-cqFg-unsplash.jpg
+    │       gilbert-pagunaling-hSw71lns6HI-unsplash.jpg
+    │       lucas-law-KDVGz-qnHfc-unsplash.jpg
+    │       rc-cf-FMh5o5m5N9E-unsplash.jpg
+    │       
+    └───videos
+            Food_Reel_-_Darío_Idoate(720p).mp4       
 ```
 
----
+## Git Workflow
+ * main
+ * gh-pages
 
 ## Getting Started
 
@@ -90,8 +97,7 @@ This project was built with accessibility in mind:
 | Technology | Purpose |
 |---|---|
 | HTML5 | Structure and content |
-| Browser-native validation | Form input validation |
-| MP4 video | Kitchen culture media embed |
+
 
 > No CSS or JavaScript frameworks are used — this is a pure HTML project.
 
@@ -119,3 +125,7 @@ Nexus Hotel operates in Nairobi's competitive fine dining market where a dedicat
 - Reduce reservation friction by providing a direct booking enquiry form
 - Build brand credibility by showcasing the team's expertise and culinary story
 - Expand reach for its catering arm targeting corporate clients across Kenya
+
+## Copyright
+
+&copy; 2026 Nexus Hotel. All rights reserved. 
