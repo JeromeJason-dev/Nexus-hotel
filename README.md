@@ -104,15 +104,18 @@ This project was built with accessibility in mind:
 - [ ] Add a menu/gallery page
 - [ ] Integrate a live booking/calendar system
 
----
 
 ## License
 
 This project is licensed under the MIT license
 
 
-## Author
-**Jason Ngariu**
 
-* Github: https://github.com/JeromeJason-dev
-* Email: jasonnem048@gmail.com
+## Business Rationale
+
+Nexus Hotel operates in Nairobi's competitive fine dining market where a dedicated web presence allows the restaurant to:
+
+- Attract new customers searching for premium dining experiences in Nairobi
+- Reduce reservation friction by providing a direct booking enquiry form
+- Build brand credibility by showcasing the team's expertise and culinary story
+- Expand reach for its catering arm targeting corporate clients across Kenya
