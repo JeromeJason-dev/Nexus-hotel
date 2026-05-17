@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexus Hotel</title>
+     <title>Nexus Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
 
@@ -36,22 +39,21 @@
         <section id="services" aria-labelledby="services-heading">
             <h2 id="services-heading">Our Services</h2>
             
-            <article>
+            <article class="services">
                 <h3>Fine Dine-In</h3>
                 <p>An intimate wood-fired dining atmosphere featuring seasonal tasting menus.</p>
                 <figure>
                  <img src="assets/images/faisal-BS4Zeq7xDRk-unsplash.jpg" 
-                     alt="Executive Chef Samuel preparing a signature dish with local spices" 
-                     width="300px" length="300px">
+                     alt="Executive Chef Samuel preparing a signature dish with local spices">
                 </figure>
             </article>
            
 
-            <article>
+            <article class="services">
                 <h3>Bespoke Catering</h3>
                 <p>Professional culinary services for corporate events and private celebrations across Kenya.</p>
                 <figure>
-                 <img src="assets/images/lucas-law-KDVGz-qnHfc-unsplash.jpg" alt="whole meal" width="400px" length="300px">
+                 <img src="assets/images/lucas-law-KDVGz-qnHfc-unsplash.jpg" alt="whole meal">
                  </figure>
             </article>
         </section><br>
@@ -63,19 +65,19 @@
             <h2 id="about-heading">The Hands Behind the Meal</h2><br>
             <figure>
                 <!-- Image with Alt Text for Accessibility -->
-                 <img src="assets/images/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="head chef" width="400px" length="200px">
+                 <img src="assets/images/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="head chef">
                
                 <figcaption>Our HeadChef  Mr Wong with 20 years of fusion expertise .</figcaption>
             </figure><br>
             <figure>
                 
-                 <img src="assets/images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg" alt="Executive chef" width="300px" length="200px">
+                 <img src="assets/images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg" alt="Executive chef">
                
                 <figcaption>Our Executive chef Samuel who has proper management and leadership skills to ensures good quality customer service.</figcaption>
             </figure><br>
             <figure>
                 
-                 <img src="assets/images/gilbert-pagunaling-hSw71lns6HI-unsplash.jpg" alt="Master sommelier" width="300px" length="200px">
+                 <img src="assets/images/gilbert-pagunaling-hSw71lns6HI-unsplash.jpg" alt="Master sommelier">
                
                 <figcaption>Our Master sommelier Mike David with 20 years of skills and experience in the art of wine services.</figcaption>
             </figure>
@@ -94,7 +96,7 @@
         <hr>
 
         <!-- 4. Contact Form with Validation -->
-        <section id="contact" aria-labelledby="contact-heading">
+        <section id="contact" aria-labelledby="contact-heading" class="contact">
             <h2 id="contact-heading">Make a Reservation</h2>
             
             <form action="#" method="POST">
@@ -129,7 +131,7 @@
                         <textarea id="comments" name="comments" rows="4" cols="30"></textarea>
                     </p>
 
-                    <button type="submit">Confirm Inquiry</button>
+                    <button type="submit" class="cta-btn primary full-width">Confirm Inquiry</button>
                 </fieldset>
             </form>
         </section>

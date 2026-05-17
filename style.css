@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    color:black;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+h3 {
+    color:rgb(31, 31, 35);
+}
+
+img {
+    height: 600px;
+    width: 500px;
+}
+
+button {
+    background-color: brown;
+    color: #fff;
+
+}
+
+a[href] {
+    color:rgb(6, 21, 241);
+}
+
+header {
+    border: 8px;
+    border-radius: 8px;
+    background-color :bisque;
+    color: firebrick;
+}
+footer {
+    background-color: burlywood;
+    color: #fff;
+}
+
+p {
+    color:mediumvioletred;
+}
+
+#main-content {
+    color: rgb(44, 5, 137);
+}
+
+.cta-btn:hover {
+    background-color: coral;
+    color: #fff;
+}
+
+.services {
+    background-color: beige;
+}
+
+.contact {
+    background-color: beige;
+}
+
+.cta-btn {
+    box-shadow: 4px 3px 1px grey;
+}
