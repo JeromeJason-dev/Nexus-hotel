@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Nexus Hotel</title>
+    <title>Nexus Hotel - Wood-Fired Fine Dining Nairobi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-   
+
 </head>
+
 <body>
 
     <!-- Navigation Menu -->
@@ -29,57 +31,57 @@
         <section id="home" aria-labelledby="hero-heading">
             <h1 id="hero-heading">Where the Rift Valley meets the Flame </h1>
             <p>
-                <strong>Value Proposition:</strong>We bridge the distance between heritage Kenyan farming and modern wood-fired mastery to serve the soul of Nairobi.Come and have an unforgettable experience with us.   
+                 We bridge the distance between heritage Kenyan farming and modern wood-fired mastery to serve the soul of Nairobi. Come and have an unforgettable experience with us.   
             </p>
-           
         </section>
-<hr>
+        <hr>
 
         <!-- 2. Services Section -->
         <section id="services" aria-labelledby="services-heading">
             <h2 id="services-heading">Our Services</h2>
-            
+
             <article class="services">
                 <h3>Fine Dine-In</h3>
                 <p>An intimate wood-fired dining atmosphere featuring seasonal tasting menus.</p>
                 <figure>
-                 <img src="assets/images/faisal-BS4Zeq7xDRk-unsplash.jpg" 
-                     alt="Executive Chef Samuel preparing a signature dish with local spices">
+                    <img src="assets/images/faisal-BS4Zeq7xDRk-unsplash.jpg"
+                        alt="Executive Chef Samuel preparing a signature dish with local spices">
                 </figure>
             </article>
-           
+
 
             <article class="services">
                 <h3>Bespoke Catering</h3>
                 <p>Professional culinary services for corporate events and private celebrations across Kenya.</p>
                 <figure>
-                 <img src="assets/images/lucas-law-KDVGz-qnHfc-unsplash.jpg" alt="whole meal">
-                 </figure>
+                    <img src="assets/images/lucas-law-KDVGz-qnHfc-unsplash.jpg"
+                        alt="Plated multi-course gourmet meal prepared for a private catering event">
+                </figure>
             </article>
         </section><br>
         <hr>
 
         <!-- 3. About/Team Section with Embedded Media -->
-         
+
         <section id="about" aria-labelledby="about-heading">
             <h2 id="about-heading">The Hands Behind the Meal</h2><br>
             <figure>
                 <!-- Image with Alt Text for Accessibility -->
-                 <img src="assets/images/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="head chef">
-               
-                <figcaption>Our HeadChef  Mr Wong with 20 years of fusion expertise .</figcaption>
+                <img src="assets/images/rc-cf-FMh5o5m5N9E-unsplash.jpg" alt="head chef">
+
+                <figcaption>Our HeadChef Mr Wong with 20 years of fusion expertise .</figcaption>
             </figure><br>
             <figure>
-                
-                 <img src="assets/images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg" alt="Executive chef">
-               
-                <figcaption>Our Executive chef Samuel who has proper management and leadership skills to ensures good quality customer service.</figcaption>
+
+                <img src="assets/images/febrian-zakaria-SiQgni-cqFg-unsplash.jpg" alt="Executive chef">
+
+                <figcaption>Our Executive chef Samuel, ensuring exceptional standard-driven culinary execution.</figcaption>
             </figure><br>
             <figure>
-                
-                 <img src="assets/images/gilbert-pagunaling-hSw71lns6HI-unsplash.jpg" alt="Master sommelier">
-               
-                <figcaption>Our Master sommelier Mike David with 20 years of skills and experience in the art of wine services.</figcaption>
+
+                <img src="assets/images/gilbert-pagunaling-hSw71lns6HI-unsplash.jpg" alt="Master sommelier">
+
+                <figcaption>Our Master sommelier Mike David, bringing 20 years of expertise in global wine pairings.</figcaption>
             </figure>
 
             <p>Our team consists of local culinary artists dedicated to sustainable sourcing.</p><br>
@@ -87,7 +89,8 @@
             <!-- Video Placeholder Concept -->
             <figure>
                 <video controls width="500" poster="Cooking add">
-                    <source src="assets/videos/Food_Reel_-_Darío_Idoate(720p).mp4" type="video/mp4">
+                    <source src="assets/videos/food-reel.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
                 </video>
                 <figcaption>Behind the Scenes: Our Kitchen Culture</figcaption>
             </figure>
@@ -95,21 +98,19 @@
 
         <hr>
 
-        <!-- 4. Contact Form with Validation -->
+        <!-- 4. Reservation Form -->
         <section id="contact" aria-labelledby="contact-heading" class="contact">
             <h2 id="contact-heading">Make a Reservation</h2>
-            
+
             <form action="#" method="POST">
                 <fieldset>
                     <legend>Booking Details</legend>
-                
-                    <!-- Required name input section for validation -->
+
                     <p>
                         <label for="full-name">Full Name *</label><br>
-                        <input type="text" id="full-name" name="name" required  placeholder="Enter your name">
+                        <input type="text" id="full-name" name="name" required placeholder="Enter your name">
                     </p>
 
-                    <!-- Type Email for automatic Format Validation -->
                     <p>
                         <label for="email-address">Email Address *</label><br>
                         <input type="email" id="email-address" name="email" required placeholder="name@example.com">
@@ -118,12 +119,13 @@
                     <!-- Pattern Attribute for Regex Validation (Kenyan Phone Format) -->
                     <p>
                         <label for="phone">Phone Number *</label><br>
-                        <input type="tel" id="phone" name="phone" required pattern="[0]{1}[0-9]{9}" placeholder="0712345678" title="Please enter a 10-digit number starting with 0">
+                        <input type="tel" id="phone" name="phone" required pattern="[0]{1}[0-9]{9}"
+                            placeholder="0712345678" title="Please enter a 10-digit number starting with 0">
                     </p>
                     <!-- Required date validation -->
                     <p>
                         <label for="start">Date *</label><br>
-                        <input type="date" id="start" name="Date & Time" required >
+                        <input type="date" id="start" name="Date & Time" required>
                     </p>
 
                     <p>
@@ -144,15 +146,15 @@
         <nav aria-label="Social Media Links">
             <ul>
                 <!-- ARIA labels for non-text links -->
-                <li><a href="https://instagram.com/nexushotel" aria-label="Follow us on Instagram">Instagram</a></li>
-                <li><a href="https://facebook.com/nexushotel" aria-label="Like us on Facebook">Facebook</a></li>
+                <li><a href="https://instagram.com/nexushotel" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://facebook.com/nexushotel" aria-label="Like us on Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
             </ul>
         </nav>
         <p>&copy; 2026 The Nexus Hotel. All rights reserved.</p>
         <p><small>Nairobi, Kenya</small></p>
+        
+        <p><a href="#">Back to the top</a></p>
     </footer>
-    <p>
-        <a href="#">Back to the top</a>
-    </p>
+
 </body>
 </html>
